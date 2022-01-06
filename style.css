@@ -125,11 +125,11 @@ p{
     justify-content: space-around;
     
 }
-.hi{
+.box{
     padding-bottom:50px;
     margin-top:100px;
 }
-.fw{
+.box1{
     background-color:wheat;
     box-shadow: 10px 10px 30px gray;
     margin-left:5%;
