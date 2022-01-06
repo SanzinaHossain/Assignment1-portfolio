@@ -1,11 +1,12 @@
-section{
+.section-1{
+
     display:flex;
 }
 .a1{
-    padding-top:100px;
+    padding-top:60px;
     width:50%;
-    padding-left:40px;
 }
+ 
 .a2{
     width:50%;
     padding-left:150px;
@@ -16,8 +17,12 @@ section{
     height:500px;
     width:400px;
 }
-h1{
-    font-size:50px;
+.section-1-h1{
+    font-size:40px;
+    padding-left:10px;
+    position: relative;
+    border-left:5px solid red;
+    border-radius:5px;
 }
 .button{
     font-weight:700;
@@ -30,4 +35,39 @@ h1{
 p{
     text-decoration: none;
     font-size:20px;
+}
+.section-2-h1{
+   font-size:40px;
+   text-decoration: none;
+   text-align:center;
+}
+.parent{
+    display: flex;
+    justify-content:space-between;
+}
+.child1{
+    background-color:gray;
+    height:400px;
+    width:400px;
+    border-radius: 20px;
+}
+.child2{
+    background-color:pink;
+    height:400px;
+    width:400px;
+    border-radius: 20px;
+}
+.child3{
+    background-color:wheat;
+    height:400px;
+    width:400px;
+    border-radius: 20px;
+}
+.illustrators-size{
+    height:200px;
+    width:200px;
+}
+.illustatror-para
+{
+    padding-left:20px;
 }
